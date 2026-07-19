@@ -1,0 +1,12 @@
+.vscode
+.vs/
+*.blob
+*/TextMesh\ Pro
+*/XR
+Library/
+
+/[Ll]ibrary/
+/[建设项目]/
+/[Bb]uild/
+/[Logs]/
+/[UserSettings]/

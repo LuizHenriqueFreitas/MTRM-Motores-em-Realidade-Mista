@@ -1,0 +1,1 @@
+instale os pacotes de TextMesh Pro e XR dentro da unity

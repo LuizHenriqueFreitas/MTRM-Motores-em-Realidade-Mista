@@ -1,0 +1,4184 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7649901243037613838
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8104938933426550307}
+  - component: {fileID: 1391009645194534430}
+  m_Layer: 0
+  m_Name: MotorRoot
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8104938933426550307
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7649901243037613838}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.71483535, y: -0.012202132, z: 0.0047933944, w: 0.69917}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.115606956, y: 0.11560692, z: 0.115606934}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2377665245695403943}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1391009645194534430
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7649901243037613838}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc03f516c63d85545819143eab5cd5fe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1001 &2843337674797482060
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8857828221941540024, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.001906507
+      objectReference: {fileID: 0}
+    - target: {fileID: -8857828221941540024, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.001809379
+      objectReference: {fileID: 0}
+    - target: {fileID: -8857828221941540024, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.01840822
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 8.65
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 8.65
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 8.65
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -3.2
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 4.8
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -4
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.69917
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.71483535
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.012202132
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.0047933944
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -7932167829933251950, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.003122654
+      objectReference: {fileID: 0}
+    - target: {fileID: -7932167829933251950, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.002094898
+      objectReference: {fileID: 0}
+    - target: {fileID: -7932167829933251950, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.01794639
+      objectReference: {fileID: 0}
+    - target: {fileID: -7626116846458762349, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.003168965
+      objectReference: {fileID: 0}
+    - target: {fileID: -7626116846458762349, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.00177383
+      objectReference: {fileID: 0}
+    - target: {fileID: -7626116846458762349, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.01823326
+      objectReference: {fileID: 0}
+    - target: {fileID: -7500722217643473152, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.01059791
+      objectReference: {fileID: 0}
+    - target: {fileID: -7500722217643473152, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.02408233
+      objectReference: {fileID: 0}
+    - target: {fileID: -7323064102488085021, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.013201
+      objectReference: {fileID: 0}
+    - target: {fileID: -7133410564239546779, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.0002443489
+      objectReference: {fileID: 0}
+    - target: {fileID: -7133410564239546779, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.0009680102
+      objectReference: {fileID: 0}
+    - target: {fileID: -6742315642295969190, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.0003454229
+      objectReference: {fileID: 0}
+    - target: {fileID: -6742315642295969190, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.01578793
+      objectReference: {fileID: 0}
+    - target: {fileID: -6742315642295969190, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.01488434
+      objectReference: {fileID: 0}
+    - target: {fileID: -6501518375681012849, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.003339103
+      objectReference: {fileID: 0}
+    - target: {fileID: -6501518375681012849, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.01317856
+      objectReference: {fileID: 0}
+    - target: {fileID: -6501518375681012849, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.01766399
+      objectReference: {fileID: 0}
+    - target: {fileID: -6211957067760245351, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.01053867
+      objectReference: {fileID: 0}
+    - target: {fileID: -6211957067760245351, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.02056217
+      objectReference: {fileID: 0}
+    - target: {fileID: -6144643481310528447, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.01368759
+      objectReference: {fileID: 0}
+    - target: {fileID: -6144643481310528447, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.001005037
+      objectReference: {fileID: 0}
+    - target: {fileID: -6144643481310528447, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.02307603
+      objectReference: {fileID: 0}
+    - target: {fileID: -5074640476704156385, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.001806563
+      objectReference: {fileID: 0}
+    - target: {fileID: -5074640476704156385, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.01755961
+      objectReference: {fileID: 0}
+    - target: {fileID: -4962105351354599819, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.002872291
+      objectReference: {fileID: 0}
+    - target: {fileID: -4962105351354599819, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.02223653
+      objectReference: {fileID: 0}
+    - target: {fileID: -4739231432910143308, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.00156
+      objectReference: {fileID: 0}
+    - target: {fileID: -4739231432910143308, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.00321
+      objectReference: {fileID: 0}
+    - target: {fileID: -4739231432910143308, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.02468
+      objectReference: {fileID: 0}
+    - target: {fileID: -4739231432910143308, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.9999052
+      objectReference: {fileID: 0}
+    - target: {fileID: -4739231432910143308, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.00014039873
+      objectReference: {fileID: 0}
+    - target: {fileID: -4739231432910143308, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.013762588
+      objectReference: {fileID: 0}
+    - target: {fileID: -4739231432910143308, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.00030667635
+      objectReference: {fileID: 0}
+    - target: {fileID: -4739231432910143308, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -0.017
+      objectReference: {fileID: 0}
+    - target: {fileID: -4739231432910143308, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -1.577
+      objectReference: {fileID: 0}
+    - target: {fileID: -4739231432910143308, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -0.035
+      objectReference: {fileID: 0}
+    - target: {fileID: -4617125702981945872, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.01890603
+      objectReference: {fileID: 0}
+    - target: {fileID: -3979044266787306295, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.001829663
+      objectReference: {fileID: 0}
+    - target: {fileID: -3979044266787306295, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.0132715
+      objectReference: {fileID: 0}
+    - target: {fileID: -3979044266787306295, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.01821087
+      objectReference: {fileID: 0}
+    - target: {fileID: -3905266309080607228, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.0001702043
+      objectReference: {fileID: 0}
+    - target: {fileID: -3905266309080607228, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.02541951
+      objectReference: {fileID: 0}
+    - target: {fileID: -3905266309080607228, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.0006470633
+      objectReference: {fileID: 0}
+    - target: {fileID: -3252222315399619471, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.01075524
+      objectReference: {fileID: 0}
+    - target: {fileID: -3252222315399619471, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.02391377
+      objectReference: {fileID: 0}
+    - target: {fileID: -2481424200316474407, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.003772799
+      objectReference: {fileID: 0}
+    - target: {fileID: -2481424200316474407, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.01375311
+      objectReference: {fileID: 0}
+    - target: {fileID: -2481424200316474407, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.02401382
+      objectReference: {fileID: 0}
+    - target: {fileID: -2237921456421621644, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 1885071941233907085, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+    - target: {fileID: -1291548812005303393, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.002061778
+      objectReference: {fileID: 0}
+    - target: {fileID: -1291548812005303393, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.01362202
+      objectReference: {fileID: 0}
+    - target: {fileID: -1291548812005303393, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.01896401
+      objectReference: {fileID: 0}
+    - target: {fileID: -1219846618830303306, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.02895423
+      objectReference: {fileID: 0}
+    - target: {fileID: -394726769161312891, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.001850346
+      objectReference: {fileID: 0}
+    - target: {fileID: -394726769161312891, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.01713317
+      objectReference: {fileID: 0}
+    - target: {fileID: -394726769161312891, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.01780344
+      objectReference: {fileID: 0}
+    - target: {fileID: 26491347511087578, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.01421368
+      objectReference: {fileID: 0}
+    - target: {fileID: 26491347511087578, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.02875711
+      objectReference: {fileID: 0}
+    - target: {fileID: 284677303329236469, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.01326862
+      objectReference: {fileID: 0}
+    - target: {fileID: 439665969653913047, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.01108105
+      objectReference: {fileID: 0}
+    - target: {fileID: 439665969653913047, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.03170047
+      objectReference: {fileID: 0}
+    - target: {fileID: 651115721215042583, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.003197465
+      objectReference: {fileID: 0}
+    - target: {fileID: 651115721215042583, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.001777263
+      objectReference: {fileID: 0}
+    - target: {fileID: 651115721215042583, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.01836385
+      objectReference: {fileID: 0}
+    - target: {fileID: 853307089903656574, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.00318612
+      objectReference: {fileID: 0}
+    - target: {fileID: 853307089903656574, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.002103079
+      objectReference: {fileID: 0}
+    - target: {fileID: 853307089903656574, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.01827767
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      propertyPath: m_Name
+      value: 3L_BETA_Engine
+      objectReference: {fileID: 0}
+    - target: {fileID: 1037335460941989116, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.002006193
+      objectReference: {fileID: 0}
+    - target: {fileID: 1037335460941989116, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.0020289
+      objectReference: {fileID: 0}
+    - target: {fileID: 1037335460941989116, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.01863904
+      objectReference: {fileID: 0}
+    - target: {fileID: 1320814959599459406, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.001773173
+      objectReference: {fileID: 0}
+    - target: {fileID: 1320814959599459406, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.002040554
+      objectReference: {fileID: 0}
+    - target: {fileID: 1977933297750860107, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.000186498
+      objectReference: {fileID: 0}
+    - target: {fileID: 1977933297750860107, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.02551046
+      objectReference: {fileID: 0}
+    - target: {fileID: 1977933297750860107, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.0006608168
+      objectReference: {fileID: 0}
+    - target: {fileID: 2015355772217647445, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.003330022
+      objectReference: {fileID: 0}
+    - target: {fileID: 2015355772217647445, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.01941556
+      objectReference: {fileID: 0}
+    - target: {fileID: 2018078740685619986, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.004132882
+      objectReference: {fileID: 0}
+    - target: {fileID: 2315336973032841790, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.001178699
+      objectReference: {fileID: 0}
+    - target: {fileID: 2315336973032841790, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.0158846
+      objectReference: {fileID: 0}
+    - target: {fileID: 3573223489670689378, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.002080669
+      objectReference: {fileID: 0}
+    - target: {fileID: 3573223489670689378, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.01753385
+      objectReference: {fileID: 0}
+    - target: {fileID: 3757797167020996621, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.0001169782
+      objectReference: {fileID: 0}
+    - target: {fileID: 3757797167020996621, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.01689015
+      objectReference: {fileID: 0}
+    - target: {fileID: 4178716529193986214, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.0171174
+      objectReference: {fileID: 0}
+    - target: {fileID: 4178716529193986214, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.01789845
+      objectReference: {fileID: 0}
+    - target: {fileID: 4429267969503957675, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.01615681
+      objectReference: {fileID: 0}
+    - target: {fileID: 4493276588593231479, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.000161715
+      objectReference: {fileID: 0}
+    - target: {fileID: 4493276588593231479, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.01631047
+      objectReference: {fileID: 0}
+    - target: {fileID: 5009602942303388414, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.01044266
+      objectReference: {fileID: 0}
+    - target: {fileID: 5009602942303388414, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.02410276
+      objectReference: {fileID: 0}
+    - target: {fileID: 5009602942303388414, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.02441952
+      objectReference: {fileID: 0}
+    - target: {fileID: 5136449885243220198, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.01486667
+      objectReference: {fileID: 0}
+    - target: {fileID: 5136449885243220198, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.01205151
+      objectReference: {fileID: 0}
+    - target: {fileID: 5348235981329018621, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.003329866
+      objectReference: {fileID: 0}
+    - target: {fileID: 5348235981329018621, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.01711836
+      objectReference: {fileID: 0}
+    - target: {fileID: 5348235981329018621, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.01793425
+      objectReference: {fileID: 0}
+    - target: {fileID: 5992585622337077214, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.003042922
+      objectReference: {fileID: 0}
+    - target: {fileID: 5992585622337077214, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.01367344
+      objectReference: {fileID: 0}
+    - target: {fileID: 5992585622337077214, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.01870055
+      objectReference: {fileID: 0}
+    - target: {fileID: 6674301298219416660, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.002095514
+      objectReference: {fileID: 0}
+    - target: {fileID: 6674301298219416660, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.01753102
+      objectReference: {fileID: 0}
+    - target: {fileID: 6674301298219416660, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.01907358
+      objectReference: {fileID: 0}
+    - target: {fileID: 7282146687584852630, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.003064135
+      objectReference: {fileID: 0}
+    - target: {fileID: 7282146687584852630, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.01367096
+      objectReference: {fileID: 0}
+    - target: {fileID: 8213971392706754254, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.001739877
+      objectReference: {fileID: 0}
+    - target: {fileID: 8213971392706754254, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.00181723
+      objectReference: {fileID: 0}
+    - target: {fileID: 8213971392706754254, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.01826996
+      objectReference: {fileID: 0}
+    - target: {fileID: 8973729249021382106, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.00204693
+      objectReference: {fileID: 0}
+    - target: {fileID: 8973729249021382106, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.01362486
+      objectReference: {fileID: 0}
+    - target: {fileID: 8973729249021382106, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.01886695
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 8104938933426550307}
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 5827802499583681598}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 6275362780644002344}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3770012288270755027}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1867489876782706066}
+    - targetCorrespondingSourceObject: {fileID: -3046872192256801872, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 6691572740506373029}
+    - targetCorrespondingSourceObject: {fileID: -3046872192256801872, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4711635794120279470}
+    - targetCorrespondingSourceObject: {fileID: -2556827079831029596, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 8004787257959098651}
+    - targetCorrespondingSourceObject: {fileID: -2556827079831029596, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 5289455821913215467}
+    - targetCorrespondingSourceObject: {fileID: 3418053641704963918, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 8671723006234545611}
+    - targetCorrespondingSourceObject: {fileID: 3418053641704963918, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 679099377333029276}
+    - targetCorrespondingSourceObject: {fileID: 7190204424154758277, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 5617640088900347017}
+    - targetCorrespondingSourceObject: {fileID: 7190204424154758277, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1786375491689746381}
+    - targetCorrespondingSourceObject: {fileID: 6189603123323380976, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 6244859331759446908}
+    - targetCorrespondingSourceObject: {fileID: 6189603123323380976, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 5650524669262212875}
+    - targetCorrespondingSourceObject: {fileID: 4452067399520426369, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4379928071582598889}
+    - targetCorrespondingSourceObject: {fileID: 4452067399520426369, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7155252776994717474}
+    - targetCorrespondingSourceObject: {fileID: -7830050836303508786, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3992274319722836439}
+    - targetCorrespondingSourceObject: {fileID: -7830050836303508786, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 9107313100773669492}
+    - targetCorrespondingSourceObject: {fileID: 6547540086341831007, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2165351809948506042}
+    - targetCorrespondingSourceObject: {fileID: 6547540086341831007, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7773425785786195854}
+    - targetCorrespondingSourceObject: {fileID: -1329775219204554154, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 5438557882763624055}
+    - targetCorrespondingSourceObject: {fileID: -1329775219204554154, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 8965501234427014276}
+    - targetCorrespondingSourceObject: {fileID: -5998419525833616094, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 6176500715739130974}
+    - targetCorrespondingSourceObject: {fileID: -5998419525833616094, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1930265114160528290}
+    - targetCorrespondingSourceObject: {fileID: -1936823783465518948, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4585122491896178715}
+    - targetCorrespondingSourceObject: {fileID: -1936823783465518948, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 122871029931716964}
+    - targetCorrespondingSourceObject: {fileID: 4365270934826600492, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7992495662800981240}
+    - targetCorrespondingSourceObject: {fileID: 4365270934826600492, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4402987403390426410}
+    - targetCorrespondingSourceObject: {fileID: 1085758698248222056, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 8352008369615532209}
+    - targetCorrespondingSourceObject: {fileID: 1085758698248222056, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1195036144408700527}
+    - targetCorrespondingSourceObject: {fileID: 7873827837645882154, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 5757819923054331926}
+    - targetCorrespondingSourceObject: {fileID: 7873827837645882154, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7938065879442009768}
+    - targetCorrespondingSourceObject: {fileID: -794298433471571698, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2272071049385058548}
+    - targetCorrespondingSourceObject: {fileID: -794298433471571698, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4183730110448147945}
+    - targetCorrespondingSourceObject: {fileID: -8919977735811512353, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 6317668482334803836}
+    - targetCorrespondingSourceObject: {fileID: -8919977735811512353, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 6107017473909563015}
+    - targetCorrespondingSourceObject: {fileID: -357650587792674318, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2719305878448548011}
+    - targetCorrespondingSourceObject: {fileID: -357650587792674318, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 8056775397173106088}
+    - targetCorrespondingSourceObject: {fileID: 9194019424963299899, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 289824839099754900}
+    - targetCorrespondingSourceObject: {fileID: 9194019424963299899, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 877625116378090095}
+    - targetCorrespondingSourceObject: {fileID: -82975942635748482, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7145994116697328513}
+    - targetCorrespondingSourceObject: {fileID: -82975942635748482, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7726083437283258981}
+    - targetCorrespondingSourceObject: {fileID: -7858008663196786850, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2429299169346991953}
+    - targetCorrespondingSourceObject: {fileID: -7858008663196786850, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 79412452664027434}
+    - targetCorrespondingSourceObject: {fileID: -1648824441020093285, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4121977430246815008}
+    - targetCorrespondingSourceObject: {fileID: -1648824441020093285, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 8825844053826768301}
+    - targetCorrespondingSourceObject: {fileID: -7690916678693035551, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 5874911707472455288}
+    - targetCorrespondingSourceObject: {fileID: -7690916678693035551, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4342489603627131674}
+    - targetCorrespondingSourceObject: {fileID: -168949837683644716, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4231448508418929353}
+    - targetCorrespondingSourceObject: {fileID: -168949837683644716, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2107528220280776590}
+    - targetCorrespondingSourceObject: {fileID: -7024669808136367840, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 8365647991192191999}
+    - targetCorrespondingSourceObject: {fileID: -7024669808136367840, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2721592479381613852}
+    - targetCorrespondingSourceObject: {fileID: -1189832031025692545, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 978020476796005099}
+    - targetCorrespondingSourceObject: {fileID: -1189832031025692545, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 5631631124996713236}
+    - targetCorrespondingSourceObject: {fileID: 3770363015988834463, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3550640745538310194}
+    - targetCorrespondingSourceObject: {fileID: 3770363015988834463, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 8668760828987994197}
+    - targetCorrespondingSourceObject: {fileID: -6960553017829833946, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7061770524825729349}
+    - targetCorrespondingSourceObject: {fileID: -6960553017829833946, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 6318175778615838455}
+    - targetCorrespondingSourceObject: {fileID: 3948777016438215245, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3288850216142248872}
+    - targetCorrespondingSourceObject: {fileID: 3948777016438215245, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 6516705566110202256}
+    - targetCorrespondingSourceObject: {fileID: -2776138156984466611, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7967302107014189221}
+    - targetCorrespondingSourceObject: {fileID: -2776138156984466611, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1424362056574898617}
+    - targetCorrespondingSourceObject: {fileID: 3687911873397851350, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2008405503595260136}
+    - targetCorrespondingSourceObject: {fileID: 3687911873397851350, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 6493551374091379327}
+    - targetCorrespondingSourceObject: {fileID: 282256709867295553, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3480002242430148625}
+    - targetCorrespondingSourceObject: {fileID: 282256709867295553, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1546379071458124035}
+    - targetCorrespondingSourceObject: {fileID: 7290193192053972519, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 9129922801716506544}
+    - targetCorrespondingSourceObject: {fileID: 7290193192053972519, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3405086743962649106}
+    - targetCorrespondingSourceObject: {fileID: -3044171027374439902, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2657721221569268903}
+    - targetCorrespondingSourceObject: {fileID: -3044171027374439902, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1632016131699439923}
+    - targetCorrespondingSourceObject: {fileID: -5804792783694952367, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 5057002300589629664}
+    - targetCorrespondingSourceObject: {fileID: -5804792783694952367, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 5327059128600451436}
+    - targetCorrespondingSourceObject: {fileID: 7403589941808159511, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7291006415183418157}
+    - targetCorrespondingSourceObject: {fileID: 7403589941808159511, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4035668958727114436}
+    - targetCorrespondingSourceObject: {fileID: -6235400584652957986, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4074966210079420205}
+    - targetCorrespondingSourceObject: {fileID: -6235400584652957986, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 5726044437957924955}
+    - targetCorrespondingSourceObject: {fileID: 5056199901502846321, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 544924947100886982}
+    - targetCorrespondingSourceObject: {fileID: 5056199901502846321, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 6939634875076310483}
+    - targetCorrespondingSourceObject: {fileID: -6980866513550091849, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2628035744943090863}
+    - targetCorrespondingSourceObject: {fileID: -6980866513550091849, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1582924197328066343}
+    - targetCorrespondingSourceObject: {fileID: -1432330257664299252, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 8731702257896571377}
+    - targetCorrespondingSourceObject: {fileID: -1432330257664299252, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 345679365147498196}
+    - targetCorrespondingSourceObject: {fileID: 203810043296181198, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3174721281695577407}
+    - targetCorrespondingSourceObject: {fileID: 203810043296181198, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2736111361378031825}
+    - targetCorrespondingSourceObject: {fileID: -5791063346219505020, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2712350159424207670}
+    - targetCorrespondingSourceObject: {fileID: -5791063346219505020, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1434860573140765532}
+    - targetCorrespondingSourceObject: {fileID: -4346037643656347551, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3623794250635367389}
+    - targetCorrespondingSourceObject: {fileID: -4346037643656347551, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7825488791049699991}
+    - targetCorrespondingSourceObject: {fileID: 816599950694789025, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 798823433645248187}
+    - targetCorrespondingSourceObject: {fileID: 816599950694789025, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 8724208176728418461}
+    - targetCorrespondingSourceObject: {fileID: 6906081957841444634, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 5338554874297618829}
+    - targetCorrespondingSourceObject: {fileID: 6906081957841444634, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 5900782776817752189}
+    - targetCorrespondingSourceObject: {fileID: 9129262616248166994, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 9049070350747137103}
+    - targetCorrespondingSourceObject: {fileID: 9129262616248166994, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4152827096928958067}
+    - targetCorrespondingSourceObject: {fileID: 6485777973799718003, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2635700681348798692}
+    - targetCorrespondingSourceObject: {fileID: 6485777973799718003, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2899428864262310965}
+    - targetCorrespondingSourceObject: {fileID: 3973443513852485135, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 5761141046343297150}
+    - targetCorrespondingSourceObject: {fileID: 3973443513852485135, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 468882108602727036}
+    - targetCorrespondingSourceObject: {fileID: -1673857493482798387, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4004821662086581810}
+    - targetCorrespondingSourceObject: {fileID: -1673857493482798387, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 219532802833669263}
+    - targetCorrespondingSourceObject: {fileID: 2873814046098579019, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4460900380484143953}
+    - targetCorrespondingSourceObject: {fileID: 2873814046098579019, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4798692923510703357}
+    - targetCorrespondingSourceObject: {fileID: -6004311279060052827, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1730416903692663831}
+    - targetCorrespondingSourceObject: {fileID: -6004311279060052827, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 5884647252384157304}
+    - targetCorrespondingSourceObject: {fileID: -1026379243832303022, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 5530376371921126140}
+    - targetCorrespondingSourceObject: {fileID: -1026379243832303022, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 6011959151639002732}
+    - targetCorrespondingSourceObject: {fileID: -1205828260252052014, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1461106627413173622}
+    - targetCorrespondingSourceObject: {fileID: -1205828260252052014, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1182445998224730871}
+    - targetCorrespondingSourceObject: {fileID: -3789377616391172685, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 8384652215759208765}
+    - targetCorrespondingSourceObject: {fileID: -3789377616391172685, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 8568479929435234186}
+    - targetCorrespondingSourceObject: {fileID: -2097746218082578300, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4287677360659096635}
+    - targetCorrespondingSourceObject: {fileID: -2097746218082578300, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3199297122021236867}
+    - targetCorrespondingSourceObject: {fileID: -3248419945834860663, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7577880196812549957}
+    - targetCorrespondingSourceObject: {fileID: -3248419945834860663, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 8548489127131508108}
+    - targetCorrespondingSourceObject: {fileID: -4210671606863269216, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1073095846806674357}
+    - targetCorrespondingSourceObject: {fileID: -4210671606863269216, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 8991009762525153318}
+    - targetCorrespondingSourceObject: {fileID: -4568202422387031320, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 6379963607514735326}
+    - targetCorrespondingSourceObject: {fileID: -4568202422387031320, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4501004690766276369}
+    - targetCorrespondingSourceObject: {fileID: -6916727737466556291, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1191486139750641618}
+    - targetCorrespondingSourceObject: {fileID: -6916727737466556291, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 5342825114528253489}
+    - targetCorrespondingSourceObject: {fileID: 2585978860496742662, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2767585165785254325}
+    - targetCorrespondingSourceObject: {fileID: 2585978860496742662, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 777832195099249694}
+    - targetCorrespondingSourceObject: {fileID: -639212013754069631, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 526145739511106803}
+    - targetCorrespondingSourceObject: {fileID: -639212013754069631, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 5270188539347317208}
+    - targetCorrespondingSourceObject: {fileID: -7713509322774715412, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1893046047047472118}
+    - targetCorrespondingSourceObject: {fileID: -7713509322774715412, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 6466917289382392955}
+    - targetCorrespondingSourceObject: {fileID: -2405779891099340867, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1185099629745362790}
+    - targetCorrespondingSourceObject: {fileID: -2405779891099340867, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3559854368132431493}
+    - targetCorrespondingSourceObject: {fileID: -8549079301663207243, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7731342509727003386}
+    - targetCorrespondingSourceObject: {fileID: -8549079301663207243, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7400804017897515401}
+    - targetCorrespondingSourceObject: {fileID: -8767763593246417447, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4818606216324969123}
+    - targetCorrespondingSourceObject: {fileID: -8767763593246417447, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4368273869989637002}
+    - targetCorrespondingSourceObject: {fileID: -88688277439581623, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 8311337657015580048}
+    - targetCorrespondingSourceObject: {fileID: -88688277439581623, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 6683264463243547153}
+    - targetCorrespondingSourceObject: {fileID: 7224381762734116094, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7537937719172289355}
+    - targetCorrespondingSourceObject: {fileID: 7224381762734116094, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4336673048235200666}
+    - targetCorrespondingSourceObject: {fileID: -8129862267071674135, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 117041232373942135}
+    - targetCorrespondingSourceObject: {fileID: -8129862267071674135, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3228768751286091324}
+    - targetCorrespondingSourceObject: {fileID: -3458215795418917176, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2796167079444552559}
+    - targetCorrespondingSourceObject: {fileID: -3458215795418917176, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7297777628677589947}
+    - targetCorrespondingSourceObject: {fileID: 9066205065137204683, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4455949722523625460}
+    - targetCorrespondingSourceObject: {fileID: 9066205065137204683, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 6695378525320449471}
+    - targetCorrespondingSourceObject: {fileID: 5992160030420978679, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 660530525980322346}
+    - targetCorrespondingSourceObject: {fileID: 5992160030420978679, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 553507170242640075}
+    - targetCorrespondingSourceObject: {fileID: 3544723187001895970, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4192557485561894996}
+    - targetCorrespondingSourceObject: {fileID: 3544723187001895970, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 239639265382302588}
+    - targetCorrespondingSourceObject: {fileID: -2801914443172814808, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 5041081659757772763}
+    - targetCorrespondingSourceObject: {fileID: -2801914443172814808, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 6084152654309831437}
+    - targetCorrespondingSourceObject: {fileID: -1447466894848441762, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 5854830082481745472}
+    - targetCorrespondingSourceObject: {fileID: -1447466894848441762, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1444179207560597792}
+  m_SourcePrefab: {fileID: 100100000, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+--- !u!1 &41735446697467399 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2873814046098579019, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+  m_PrefabInstance: {fileID: 2843337674797482060}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &4460900380484143953
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 41735446697467399}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -2180983037262014845, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+--- !u!114 &4798692923510703357
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 41735446697467399}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f1368a79f22920439d3ad7d34168bfc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  titleText: "V\xE1lvula"
+  descriptionText: "Acionado pela \xE1rvora de cames (comando de v\xE1lvulas), permite
+    a entrada de ar e combustivel no motor, assim como a saida dos gases gerados
+    pela combust\xE3o."
+--- !u!1 &330643617936435530 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2585978860496742662, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+  m_PrefabInstance: {fileID: 2843337674797482060}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &2767585165785254325
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 330643617936435530}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -5705125078850449345, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+--- !u!114 &777832195099249694
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 330643617936435530}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f1368a79f22920439d3ad7d34168bfc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  titleText: Motor de arranque
+  descriptionText: "Acionado eletronicamente, ao dar a partida no motor esse mecanismo
+    inicia o movimento do virabrequim para que o motor consiga come\xE7ar a funcionar."
+--- !u!1 &537978155021692977 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -6916727737466556291, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+  m_PrefabInstance: {fileID: 2843337674797482060}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &1191486139750641618
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 537978155021692977}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 5423104438542607717, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+--- !u!114 &5342825114528253489
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 537978155021692977}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f1368a79f22920439d3ad7d34168bfc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  titleText: "V\xE1lvula"
+  descriptionText: "Acionado pela \xE1rvora de cames (comando de v\xE1lvulas), permite
+    a entrada de ar e combustivel no motor, assim como a saida dos gases gerados
+    pela combust\xE3o."
+--- !u!1 &577774922501621789 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -5804792783694952367, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+  m_PrefabInstance: {fileID: 2843337674797482060}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &5057002300589629664
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 577774922501621789}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -5650941109448910676, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+--- !u!114 &5327059128600451436
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 577774922501621789}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f1368a79f22920439d3ad7d34168bfc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  titleText: Distribuidor de Ar
+  descriptionText: "Distribui adequadamente o ar de acordo com o ciclo de funcionamento
+    da combust\xE3o."
+--- !u!1 &584004645526437634 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3418053641704963918, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+  m_PrefabInstance: {fileID: 2843337674797482060}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &8671723006234545611
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 584004645526437634}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4706739947507548836, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+--- !u!114 &679099377333029276
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 584004645526437634}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f1368a79f22920439d3ad7d34168bfc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  titleText: "Engrenagem do Comando de V\xE1lvulas"
+  descriptionText: Mantem a arvore de cames em sincronia com o virabrequim.
+--- !u!1 &637138527058340552 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -5791063346219505020, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+  m_PrefabInstance: {fileID: 2843337674797482060}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &2712350159424207670
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 637138527058340552}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 2871693852183740472, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+--- !u!114 &1434860573140765532
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 637138527058340552}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f1368a79f22920439d3ad7d34168bfc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  titleText: "Filtro de \xF3leo"
+  descriptionText: "Mantem o sistema de lubrifica\xE7\xE3o em funcionamento, filtra
+    e tira impurezas do \xF3leo que flui por dentro dos mecanismos do motor."
+--- !u!1 &843516407481210222 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -5998419525833616094, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+  m_PrefabInstance: {fileID: 2843337674797482060}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &6176500715739130974
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 843516407481210222}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 6217360231789149667, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+--- !u!114 &1930265114160528290
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 843516407481210222}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f1368a79f22920439d3ad7d34168bfc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  titleText: "Cabeca do pist\xE3o"
+  descriptionText: "Parte de cima do pist\xE3o. \xC9 empurrada pela explos\xE3o do
+    combust\xEDvel transformando energia quimica em cin\xE9tica."
+--- !u!1 &853984327963972841 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -6004311279060052827, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+  m_PrefabInstance: {fileID: 2843337674797482060}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &1730416903692663831
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 853984327963972841}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 5569166377326107533, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+--- !u!114 &5884647252384157304
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 853984327963972841}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f1368a79f22920439d3ad7d34168bfc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  titleText: "V\xE1lvula"
+  descriptionText: "Acionado pela \xE1rvora de cames (comando de v\xE1lvulas), permite
+    a entrada de ar e combustivel no motor, assim como a saida dos gases gerados
+    pela combust\xE3o."
+--- !u!1 &1009642738287990418 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -6235400584652957986, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+  m_PrefabInstance: {fileID: 2843337674797482060}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &4074966210079420205
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1009642738287990418}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 8080769307115983599, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+--- !u!114 &5726044437957924955
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1009642738287990418}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f1368a79f22920439d3ad7d34168bfc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  titleText: Alternador
+  descriptionText: "Mecanismo que transforma a energia cin\xE9tica do Virabrequim
+    em energia El\xE9trica para uso de recursos do ve\xEDculo."
+--- !u!1 &1175740073825263171 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3973443513852485135, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+  m_PrefabInstance: {fileID: 2843337674797482060}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &5761141046343297150
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1175740073825263171}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -8362049238900160373, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+--- !u!114 &468882108602727036
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1175740073825263171}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f1368a79f22920439d3ad7d34168bfc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  titleText: "V\xE1lvula"
+  descriptionText: "Acionado pela \xE1rvora de cames (comando de v\xE1lvulas), permite
+    a entrada de ar e combustivel no motor, assim como a saida dos gases gerados
+    pela combust\xE3o."
+--- !u!1 &1277139151011762689 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3948777016438215245, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+  m_PrefabInstance: {fileID: 2843337674797482060}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &3288850216142248872
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1277139151011762689}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4310141506993656034, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+--- !u!114 &6516705566110202256
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1277139151011762689}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f1368a79f22920439d3ad7d34168bfc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  titleText: "V\xE1lvula"
+  descriptionText: "Acionado pela \xE1rvora de cames (comando de v\xE1lvulas), permite
+    a entrada de ar e combustivel no motor, assim como a saida dos gases gerados
+    pela combust\xE3o."
+--- !u!1 &1379954863693295827 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3770363015988834463, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+  m_PrefabInstance: {fileID: 2843337674797482060}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &3550640745538310194
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1379954863693295827}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -6260844924280866467, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+--- !u!114 &8668760828987994197
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1379954863693295827}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f1368a79f22920439d3ad7d34168bfc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  titleText: "V\xE1lvula"
+  descriptionText: "Acionado pela \xE1rvora de cames (comando de v\xE1lvulas), permite
+    a entrada de ar e combustivel no motor, assim como a saida dos gases gerados
+    pela combust\xE3o."
+--- !u!1 &1466916478129865882 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3687911873397851350, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+  m_PrefabInstance: {fileID: 2843337674797482060}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &2008405503595260136
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1466916478129865882}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 8098717163131327666, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+--- !u!114 &6493551374091379327
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1466916478129865882}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f1368a79f22920439d3ad7d34168bfc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  titleText: "V\xE1lvula"
+  descriptionText: "Acionado pela \xE1rvora de cames (comando de v\xE1lvulas), permite
+    a entrada de ar e combustivel no motor, assim como a saida dos gases gerados
+    pela combust\xE3o."
+--- !u!1 &1604673972087860334 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3544723187001895970, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+  m_PrefabInstance: {fileID: 2843337674797482060}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &4192557485561894996
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1604673972087860334}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -8701402148452650461, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+--- !u!114 &239639265382302588
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1604673972087860334}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f1368a79f22920439d3ad7d34168bfc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  titleText: "Vela de Igni\xE7\xE3o"
+  descriptionText: "Acionada eletronicamente, dispara uma fa\xEDsca na c\xE2mara
+    de combust\xE3o de acordo com o ciclo do motor."
+--- !u!1 &1926831708016548301 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4452067399520426369, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+  m_PrefabInstance: {fileID: 2843337674797482060}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &4379928071582598889
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1926831708016548301}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 3749306220295587383, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+--- !u!114 &7155252776994717474
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1926831708016548301}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f1368a79f22920439d3ad7d34168bfc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  titleText: "Biela do Pist\xE3o"
+  descriptionText: "Haste resistente, presa ao virabrequim, que impulsiona e sustenta
+    a cabe\xE7a do pist\xE3o durante a combust\xE3o."
+--- !u!1 &2008920192773998688 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4365270934826600492, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+  m_PrefabInstance: {fileID: 2843337674797482060}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &7992495662800981240
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2008920192773998688}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -6197473300759322902, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+--- !u!114 &4402987403390426410
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2008920192773998688}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f1368a79f22920439d3ad7d34168bfc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  titleText: "Cabeca do pist\xE3o"
+  descriptionText: "Parte de cima do pist\xE3o. \xC9 empurrada pela explos\xE3o do
+    combust\xEDvel transformando energia quimica em cin\xE9tica."
+--- !u!4 &2377665245695403943 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+  m_PrefabInstance: {fileID: 2843337674797482060}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &2388937483241643413 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -8767763593246417447, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+  m_PrefabInstance: {fileID: 2843337674797482060}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &4818606216324969123
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2388937483241643413}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -6379101701063444647, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+--- !u!114 &4368273869989637002
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2388937483241643413}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f1368a79f22920439d3ad7d34168bfc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  titleText: Tampa da vela
+  descriptionText: "Conecta e protege os conectores eletricos das velas de igni\xE7\xE3o."
+--- !u!1 &2540117113906251667 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -8919977735811512353, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+  m_PrefabInstance: {fileID: 2843337674797482060}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &6317668482334803836
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2540117113906251667}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -2710455605439265952, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+--- !u!114 &6107017473909563015
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2540117113906251667}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f1368a79f22920439d3ad7d34168bfc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  titleText: Cabo de vela
+  descriptionText: "Manda os sinais eletr\xF5nicos para ativa\xE7\xE3o das velas."
+--- !u!1 &2638922978411565837 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 282256709867295553, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+  m_PrefabInstance: {fileID: 2843337674797482060}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &3480002242430148625
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2638922978411565837}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4901943641545440210, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+--- !u!114 &1546379071458124035
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2638922978411565837}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f1368a79f22920439d3ad7d34168bfc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  titleText: Correia Externa
+  descriptionText: "Conecta as polias de mecanismos como o Virabrequim, o alternador
+    e a bomba d'\xE1gua, vira\xE7\xF5es podem ser chamadas de polia do alternador
+    ou polia da bomba d'agua."
+--- !u!1 &2711594322282244994 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 203810043296181198, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+  m_PrefabInstance: {fileID: 2843337674797482060}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &3174721281695577407
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2711594322282244994}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -5775504338810663475, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+--- !u!114 &2736111361378031825
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2711594322282244994}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f1368a79f22920439d3ad7d34168bfc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  titleText: Filtro de Ar
+  descriptionText: "Respons\xE1vel por filtrar o ar que entrar\xE1 nas c\xE2maras
+    internas do motor."
+--- !u!1 &2907493416019249317 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -8129862267071674135, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+  m_PrefabInstance: {fileID: 2843337674797482060}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &117041232373942135
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2907493416019249317}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 8083551025974000115, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+--- !u!114 &3228768751286091324
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2907493416019249317}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f1368a79f22920439d3ad7d34168bfc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  titleText: Tampa da Corrente
+  descriptionText: "Proteje a Corrente do comando de v\xE1lvulas."
+--- !u!1 &2910718734218442020 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1085758698248222056, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+  m_PrefabInstance: {fileID: 2843337674797482060}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &8352008369615532209
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2910718734218442020}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 5675330754396986436, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+--- !u!114 &1195036144408700527
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2910718734218442020}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f1368a79f22920439d3ad7d34168bfc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  titleText: "Cabe\xE7ote"
+  descriptionText: "Parte de cima do motor, comporta o sistema de v\xE1lvulas e temporiza\xE7\xE3o,
+    entrada e saida de compostos nas c\xE2maras."
+--- !u!1 &3149416217648250141 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+  m_PrefabInstance: {fileID: 2843337674797482060}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &5827802499583681598
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3149416217648250141}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: a619a7b524e673948a5f5da058b32ddd, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!64 &6275362780644002344
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3149416217648250141}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -6621135104865553602, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+--- !u!114 &3770012288270755027
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3149416217648250141}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f1368a79f22920439d3ad7d34168bfc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  titleText: Bloco do Motor
+  descriptionText: "Tudo acontece ao redor deste bloco  resistente, ele comporta
+    a combust\xE3o e sustenta grande parte dos sistemas sat\xE9lites."
+--- !u!114 &1867489876782706066
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3149416217648250141}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 237a440a41ff6f845aef5272c1c4b531, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &3179741279764983789 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 816599950694789025, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+  m_PrefabInstance: {fileID: 2843337674797482060}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &798823433645248187
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3179741279764983789}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -1281374322114010021, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+--- !u!114 &8724208176728418461
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3179741279764983789}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f1368a79f22920439d3ad7d34168bfc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  titleText: 
+  descriptionText: 
+--- !u!1 &3327598443726262521 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -8549079301663207243, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+  m_PrefabInstance: {fileID: 2843337674797482060}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &7731342509727003386
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3327598443726262521}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4402824265842797818, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+--- !u!114 &7400804017897515401
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3327598443726262521}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f1368a79f22920439d3ad7d34168bfc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  titleText: Polia do Virabrequim
+  descriptionText: "Transfere a energia cin\xE9tica do Virabrequim para a Bomba d'\xE1gua
+    e para o Alternador por meio da correia Externa."
+--- !u!1 &3616936458156630445 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -7690916678693035551, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+  m_PrefabInstance: {fileID: 2843337674797482060}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &5874911707472455288
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3616936458156630445}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 8145013677032398361, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+--- !u!114 &4342489603627131674
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3616936458156630445}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f1368a79f22920439d3ad7d34168bfc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  titleText: "V\xE1lvula"
+  descriptionText: "Acionado pela \xE1rvora de cames (comando de v\xE1lvulas), permite
+    a entrada de ar e combustivel no motor, assim como a saida dos gases gerados
+    pela combust\xE3o."
+--- !u!1 &3711402253300753312 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -7713509322774715412, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+  m_PrefabInstance: {fileID: 2843337674797482060}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &1893046047047472118
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3711402253300753312}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 6981391843598620504, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+--- !u!114 &6466917289382392955
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3711402253300753312}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f1368a79f22920439d3ad7d34168bfc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  titleText: Polia do alternador
+  descriptionText: "Mecanismo que transforma a energia cin\xE9tica do Virabrequim
+    em energia El\xE9trica para uso de recursos do ve\xEDculo."
+--- !u!1 &3756990219504257666 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -7830050836303508786, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+  m_PrefabInstance: {fileID: 2843337674797482060}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &3992274319722836439
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3756990219504257666}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -1656147225173521445, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+--- !u!114 &9107313100773669492
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3756990219504257666}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f1368a79f22920439d3ad7d34168bfc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  titleText: "Biela do Pist\xE3o"
+  descriptionText: "Haste resistente, presa ao virabrequim, que impulsiona e sustenta
+    a cabe\xE7a do pist\xE3o durante a combust\xE3o."
+--- !u!1 &3857102518123011858 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -7858008663196786850, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+  m_PrefabInstance: {fileID: 2843337674797482060}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &2429299169346991953
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3857102518123011858}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 6298829591440626456, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+--- !u!114 &79412452664027434
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3857102518123011858}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f1368a79f22920439d3ad7d34168bfc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  titleText: "V\xE1lvula"
+  descriptionText: "Acionado pela \xE1rvora de cames (comando de v\xE1lvulas), permite
+    a entrada de ar e combustivel no motor, assim como a saida dos gases gerados
+    pela combust\xE3o."
+--- !u!1 &4040491258302481258 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -6960553017829833946, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+  m_PrefabInstance: {fileID: 2843337674797482060}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &7061770524825729349
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4040491258302481258}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -5802425457966867237, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+--- !u!114 &6318175778615838455
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4040491258302481258}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f1368a79f22920439d3ad7d34168bfc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  titleText: "V\xE1lvula"
+  descriptionText: "Acionado pela \xE1rvora de cames (comando de v\xE1lvulas), permite
+    a entrada de ar e combustivel no motor, assim como a saida dos gases gerados
+    pela combust\xE3o."
+--- !u!1 &4065460085984811515 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -6980866513550091849, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+  m_PrefabInstance: {fileID: 2843337674797482060}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &2628035744943090863
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4065460085984811515}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 30714993689353572, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+--- !u!114 &1582924197328066343
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4065460085984811515}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f1368a79f22920439d3ad7d34168bfc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  titleText: Coletor de Ar
+  descriptionText: "Canaliza e direciona o ar necess\xE1rio para a combust\xE3o do
+    motor."
+--- !u!1 &4176750605820547436 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -7024669808136367840, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+  m_PrefabInstance: {fileID: 2843337674797482060}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &8365647991192191999
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4176750605820547436}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -1063765501492951107, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+--- !u!114 &2721592479381613852
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4176750605820547436}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f1368a79f22920439d3ad7d34168bfc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  titleText: "V\xE1lvula"
+  descriptionText: "Acionado pela \xE1rvora de cames (comando de v\xE1lvulas), permite
+    a entrada de ar e combustivel no motor, assim como a saida dos gases gerados
+    pela combust\xE3o."
+--- !u!1 &4740959308989815643 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7403589941808159511, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+  m_PrefabInstance: {fileID: 2843337674797482060}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &7291006415183418157
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4740959308989815643}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 8449418363247054271, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+--- !u!114 &4035668958727114436
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4740959308989815643}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f1368a79f22920439d3ad7d34168bfc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  titleText: Bomba d'agua
+  descriptionText: "Mecanismo integrante do sistema de refrigera\xE7\xE3o do motor."
+--- !u!1 &4782374863716425323 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7290193192053972519, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+  m_PrefabInstance: {fileID: 2843337674797482060}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &9129922801716506544
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4782374863716425323}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -846812718074775913, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+--- !u!114 &3405086743962649106
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4782374863716425323}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f1368a79f22920439d3ad7d34168bfc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  titleText: Correia do comando
+  descriptionText: "Essa correia/ corrente mantem o virabrequim em sincronia com
+    as v\xE1lvulas e com o ciclo de combust\xE3o."
+--- !u!1 &4785801978951792848 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -1936823783465518948, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+  m_PrefabInstance: {fileID: 2843337674797482060}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &4585122491896178715
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4785801978951792848}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -5999903485943696000, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+--- !u!114 &122871029931716964
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4785801978951792848}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f1368a79f22920439d3ad7d34168bfc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  titleText: "Cabeca do pist\xE3o"
+  descriptionText: "Parte de cima do pist\xE3o. \xC9 empurrada pela explos\xE3o do
+    combust\xEDvel transformando energia quimica em cin\xE9tica."
+--- !u!1 &4843542660194618546 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7224381762734116094, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+  m_PrefabInstance: {fileID: 2843337674797482060}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &7537937719172289355
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4843542660194618546}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 1764622989999577836, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+--- !u!114 &4336673048235200666
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4843542660194618546}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f1368a79f22920439d3ad7d34168bfc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  titleText: Tampa da vela
+  descriptionText: "Conecta e protege os conectores eletricos das velas de igni\xE7\xE3o."
+--- !u!1 &4953163925519973577 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7190204424154758277, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+  m_PrefabInstance: {fileID: 2843337674797482060}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &5617640088900347017
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4953163925519973577}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -8175418841012814327, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+--- !u!114 &1786375491689746381
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4953163925519973577}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f1368a79f22920439d3ad7d34168bfc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  titleText: Arvore de cames
+  descriptionText: "O comando de v\xE1lvulas \xE9 acionado pela correia dentada ou
+    corrente, \xE9 fundamental para o funcinamento correto de acordo com o ciclo
+    do motor."
+--- !u!1 &5014439743863050440 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -2097746218082578300, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+  m_PrefabInstance: {fileID: 2843337674797482060}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &4287677360659096635
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5014439743863050440}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -2185218595963904275, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+--- !u!114 &3199297122021236867
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5014439743863050440}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f1368a79f22920439d3ad7d34168bfc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  titleText: "V\xE1lvula"
+  descriptionText: "Acionado pela \xE1rvora de cames (comando de v\xE1lvulas), permite
+    a entrada de ar e combustivel no motor, assim como a saida dos gases gerados
+    pela combust\xE3o."
+--- !u!1 &5190766488492900403 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -1189832031025692545, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+  m_PrefabInstance: {fileID: 2843337674797482060}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &978020476796005099
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5190766488492900403}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4581785064485875004, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+--- !u!114 &5631631124996713236
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5190766488492900403}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f1368a79f22920439d3ad7d34168bfc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  titleText: "V\xE1lvula"
+  descriptionText: "Acionado pela \xE1rvora de cames (comando de v\xE1lvulas), permite
+    a entrada de ar e combustivel no motor, assim como a saida dos gases gerados
+    pela combust\xE3o."
+--- !u!1 &5202107385652876702 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -1205828260252052014, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+  m_PrefabInstance: {fileID: 2843337674797482060}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &1461106627413173622
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5202107385652876702}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 3625268697660831981, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+--- !u!114 &1182445998224730871
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5202107385652876702}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f1368a79f22920439d3ad7d34168bfc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  titleText: "V\xE1lvula"
+  descriptionText: "Acionado pela \xE1rvora de cames (comando de v\xE1lvulas), permite
+    a entrada de ar e combustivel no motor, assim como a saida dos gases gerados
+    pela combust\xE3o."
+--- !u!1 &5346023719200162662 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7873827837645882154, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+  m_PrefabInstance: {fileID: 2843337674797482060}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &5757819923054331926
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5346023719200162662}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 7139645575107593638, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+--- !u!114 &7938065879442009768
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5346023719200162662}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f1368a79f22920439d3ad7d34168bfc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  titleText: "Cabo da inje\xE7\xE3o"
+  descriptionText: "Manda os sinais eletr\xF4nicos para a inje\xE7\xE3o eletr\xF4nica."
+--- !u!1 &5403792849176625690 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -1329775219204554154, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+  m_PrefabInstance: {fileID: 2843337674797482060}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &5438557882763624055
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5403792849176625690}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -3799462830342633892, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+--- !u!114 &8965501234427014276
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5403792849176625690}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f1368a79f22920439d3ad7d34168bfc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  titleText: Bomba d'agua
+  descriptionText: "Mecanismo integrante do sistema de refrigera\xE7\xE3o do motor."
+--- !u!1 &5434375479977717568 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -1432330257664299252, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+  m_PrefabInstance: {fileID: 2843337674797482060}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &8731702257896571377
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5434375479977717568}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -649425924113076805, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+--- !u!114 &345679365147498196
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5434375479977717568}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f1368a79f22920439d3ad7d34168bfc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  titleText: "Coletor de admiss\xE3o/ exaustor"
+  descriptionText: Coleta os gases do motor, trata alguns componentes toxicos que
+    podem ser produzidos e expele os gases para fora do sistema.
+--- !u!1 &5520287293826515474 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -1447466894848441762, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+  m_PrefabInstance: {fileID: 2843337674797482060}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &5854830082481745472
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5520287293826515474}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -3367594164244758852, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+--- !u!114 &1444179207560597792
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5520287293826515474}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f1368a79f22920439d3ad7d34168bfc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  titleText: Virabrequim
+  descriptionText: "Eixo central do motor, impulsionado pelos pist\xF5es, transporta
+    a energia cinetica gerada para o sistema de marchas e embreagem. Fundamental
+    para sincronia do motor com comando de v\xE1lvulas por correia/ corrente."
+--- !u!1 &5650788711383297239 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -1648824441020093285, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+  m_PrefabInstance: {fileID: 2843337674797482060}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &4121977430246815008
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5650788711383297239}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 2127389645473206445, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+--- !u!114 &8825844053826768301
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5650788711383297239}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f1368a79f22920439d3ad7d34168bfc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  titleText: "V\xE1lvula"
+  descriptionText: "Acionado pela \xE1rvora de cames (comando de v\xE1lvulas), permite
+    a entrada de ar e combustivel no motor, assim como a saida dos gases gerados
+    pela combust\xE3o."
+--- !u!1 &5742322581006910081 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -1673857493482798387, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+  m_PrefabInstance: {fileID: 2843337674797482060}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &4004821662086581810
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5742322581006910081}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 5299608562816662311, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+--- !u!114 &219532802833669263
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5742322581006910081}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f1368a79f22920439d3ad7d34168bfc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  titleText: "V\xE1lvula"
+  descriptionText: "Acionado pela \xE1rvora de cames (comando de v\xE1lvulas), permite
+    a entrada de ar e combustivel no motor, assim como a saida dos gases gerados
+    pela combust\xE3o."
+--- !u!1 &5788392723804114381 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -639212013754069631, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+  m_PrefabInstance: {fileID: 2843337674797482060}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &526145739511106803
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5788392723804114381}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 9149142819245327283, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+--- !u!114 &5270188539347317208
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5788392723804114381}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f1368a79f22920439d3ad7d34168bfc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  titleText: Polia da bomba d'agua
+  descriptionText: "Mecanismo integrante do sistema de refrigera\xE7\xE3o do motor."
+--- !u!1 &6021177756229638466 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -794298433471571698, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+  m_PrefabInstance: {fileID: 2843337674797482060}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &2272071049385058548
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6021177756229638466}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 6917186469527565432, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+--- !u!114 &4183730110448147945
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6021177756229638466}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f1368a79f22920439d3ad7d34168bfc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  titleText: Cabo de vela
+  descriptionText: "Manda os sinais eletr\xF5nicos para ativa\xE7\xE3o das velas."
+--- !u!1 &6247619721038963230 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -1026379243832303022, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+  m_PrefabInstance: {fileID: 2843337674797482060}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &5530376371921126140
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6247619721038963230}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4289144096576674324, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+--- !u!114 &6011959151639002732
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6247619721038963230}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f1368a79f22920439d3ad7d34168bfc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  titleText: "V\xE1lvula"
+  descriptionText: "Acionado pela \xE1rvora de cames (comando de v\xE1lvulas), permite
+    a entrada de ar e combustivel no motor, assim como a saida dos gases gerados
+    pela combust\xE3o."
+--- !u!1 &6404725018708707959 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 9194019424963299899, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+  m_PrefabInstance: {fileID: 2843337674797482060}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &289824839099754900
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6404725018708707959}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 5869298606354141685, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+--- !u!114 &877625116378090095
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6404725018708707959}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f1368a79f22920439d3ad7d34168bfc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  titleText: Borboleta do motor
+  descriptionText: Gerencia a quantidade de ar a entrar no motor.
+--- !u!1 &6461721384967013170 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -82975942635748482, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+  m_PrefabInstance: {fileID: 2843337674797482060}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &7145994116697328513
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6461721384967013170}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 8891993494068448983, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+--- !u!114 &7726083437283258981
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6461721384967013170}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f1368a79f22920439d3ad7d34168bfc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  titleText: "V\xE1lvula"
+  descriptionText: "Acionado pela \xE1rvora de cames (comando de v\xE1lvulas), permite
+    a entrada de ar e combustivel no motor, assim como a saida dos gases gerados
+    pela combust\xE3o."
+--- !u!1 &6463082144577286661 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -88688277439581623, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+  m_PrefabInstance: {fileID: 2843337674797482060}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &8311337657015580048
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6463082144577286661}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 9112921128250059574, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+--- !u!114 &6683264463243547153
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6463082144577286661}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f1368a79f22920439d3ad7d34168bfc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  titleText: Tampa da vela
+  descriptionText: "Conecta e protege os conectores eletricos das velas de igni\xE7\xE3o."
+--- !u!1 &6468355953152731678 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 9129262616248166994, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+  m_PrefabInstance: {fileID: 2843337674797482060}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &9049070350747137103
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6468355953152731678}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -8409354470655370689, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+--- !u!114 &4152827096928958067
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6468355953152731678}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f1368a79f22920439d3ad7d34168bfc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  titleText: "Tampa de \xF3leo"
+  descriptionText: "\xC9 por esse orifio que deve ser colocado \xF3leo no motor,
+    assim ele passa adequandamente por todos os caminhos que deve lubrificar."
+--- !u!1 &6531400284215946631 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 9066205065137204683, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+  m_PrefabInstance: {fileID: 2843337674797482060}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &4455949722523625460
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6531400284215946631}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -2457813248082870427, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+--- !u!114 &6695378525320449471
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6531400284215946631}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f1368a79f22920439d3ad7d34168bfc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  titleText: Borboleta do motor
+  descriptionText: Gerencia a quantidade de ar a entrar no motor.
+--- !u!1 &6544387253253940888 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -168949837683644716, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+  m_PrefabInstance: {fileID: 2843337674797482060}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &4231448508418929353
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6544387253253940888}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -36321796806029203, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+--- !u!114 &2107528220280776590
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6544387253253940888}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f1368a79f22920439d3ad7d34168bfc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  titleText: "V\xE1lvula"
+  descriptionText: "Acionado pela \xE1rvora de cames (comando de v\xE1lvulas), permite
+    a entrada de ar e combustivel no motor, assim como a saida dos gases gerados
+    pela combust\xE3o."
+--- !u!1 &6664428200503964094 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -357650587792674318, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+  m_PrefabInstance: {fileID: 2843337674797482060}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &2719305878448548011
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6664428200503964094}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 1421631339052860509, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+--- !u!114 &8056775397173106088
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6664428200503964094}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f1368a79f22920439d3ad7d34168bfc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  titleText: Cabo de vela
+  descriptionText: "Manda os sinais eletr\xF5nicos para ativa\xE7\xE3o das velas."
+--- !u!1 &7016233876279997757 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5056199901502846321, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+  m_PrefabInstance: {fileID: 2843337674797482060}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &544924947100886982
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7016233876279997757}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 3870768438744027486, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+--- !u!114 &6939634875076310483
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7016233876279997757}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f1368a79f22920439d3ad7d34168bfc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  titleText: Motor de arranque
+  descriptionText: "Acionado eletronicamente, ao dar a partida no motor esse mecanismo
+    inicia o movimento do virabrequim para que o motor consiga come\xE7ar a funcionar."
+--- !u!1 &7126138232724353772 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -4210671606863269216, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+  m_PrefabInstance: {fileID: 2843337674797482060}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &1073095846806674357
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7126138232724353772}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -2154211039516744777, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+--- !u!114 &8991009762525153318
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7126138232724353772}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f1368a79f22920439d3ad7d34168bfc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  titleText: "V\xE1lvula"
+  descriptionText: "Acionado pela \xE1rvora de cames (comando de v\xE1lvulas), permite
+    a entrada de ar e combustivel no motor, assim como a saida dos gases gerados
+    pela combust\xE3o."
+--- !u!1 &7267214711738417197 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -4346037643656347551, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+  m_PrefabInstance: {fileID: 2843337674797482060}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &3623794250635367389
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7267214711738417197}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 7963467535677124356, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+--- !u!114 &7825488791049699991
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7267214711738417197}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f1368a79f22920439d3ad7d34168bfc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  titleText: "Inje\xE7\xE3o Eletr\xF4nica"
+  descriptionText: "Controlado eletronicamente, injeta combust\xEDvel na c\xE2mara
+    de combust\xE3o em spray juntamente com o ar."
+--- !u!1 &7489464831465013924 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -4568202422387031320, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+  m_PrefabInstance: {fileID: 2843337674797482060}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &6379963607514735326
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7489464831465013924}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -6907714875793299667, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+--- !u!114 &4501004690766276369
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7489464831465013924}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f1368a79f22920439d3ad7d34168bfc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  titleText: "V\xE1lvula"
+  descriptionText: "Acionado pela \xE1rvora de cames (comando de v\xE1lvulas), permite
+    a entrada de ar e combustivel no motor, assim como a saida dos gases gerados
+    pela combust\xE3o."
+--- !u!1 &7790380381189574143 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -3789377616391172685, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+  m_PrefabInstance: {fileID: 2843337674797482060}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &8384652215759208765
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7790380381189574143}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4654578250039572395, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+--- !u!114 &8568479929435234186
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7790380381189574143}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f1368a79f22920439d3ad7d34168bfc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  titleText: "V\xE1lvula"
+  descriptionText: "Acionado pela \xE1rvora de cames (comando de v\xE1lvulas), permite
+    a entrada de ar e combustivel no motor, assim como a saida dos gases gerados
+    pela combust\xE3o."
+--- !u!1 &8255225333240603836 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6189603123323380976, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+  m_PrefabInstance: {fileID: 2843337674797482060}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &6244859331759446908
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8255225333240603836}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -3435628451814834125, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+--- !u!114 &5650524669262212875
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8255225333240603836}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f1368a79f22920439d3ad7d34168bfc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  titleText: "Engrenagem do Comando de V\xE1lvulas"
+  descriptionText: Mantem a arvore de cames em sincronia com o virabrequim.
+--- !u!1 &8265651335857537646 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -3044171027374439902, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+  m_PrefabInstance: {fileID: 2843337674797482060}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &2657721221569268903
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8265651335857537646}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -2130663895930762605, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+--- !u!114 &1632016131699439923
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8265651335857537646}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f1368a79f22920439d3ad7d34168bfc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  titleText: "C\xE1rter"
+  descriptionText: "Acumula-se o \xF3leo do motor e mantem a parte inferior do motor
+    lubrificada e selada."
+--- !u!1 &8269388944899998716 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -3046872192256801872, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+  m_PrefabInstance: {fileID: 2843337674797482060}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &6691572740506373029
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8269388944899998716}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 5532863304133288306, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+--- !u!114 &4711635794120279470
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8269388944899998716}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f1368a79f22920439d3ad7d34168bfc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  titleText: Alternador
+  descriptionText: "Mecanismo que transforma a energia cin\xE9tica do Virabrequim
+    em energia El\xE9trica para uso de recursos do ve\xEDculo."
+--- !u!1 &8385136533363182523 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5992160030420978679, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+  m_PrefabInstance: {fileID: 2843337674797482060}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &660530525980322346
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8385136533363182523}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 7923774558179217097, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+--- !u!114 &553507170242640075
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8385136533363182523}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f1368a79f22920439d3ad7d34168bfc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  titleText: "Vela de Igni\xE7\xE3o"
+  descriptionText: "Acionada eletronicamente, dispara uma fa\xEDsca na c\xE2mara
+    de combust\xE3o de acordo com o ciclo do motor."
+--- !u!1 &8475453208682180549 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -3248419945834860663, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+  m_PrefabInstance: {fileID: 2843337674797482060}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &7577880196812549957
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8475453208682180549}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -1290213390161245985, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+--- !u!114 &8548489127131508108
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8475453208682180549}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f1368a79f22920439d3ad7d34168bfc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  titleText: "V\xE1lvula"
+  descriptionText: "Acionado pela \xE1rvora de cames (comando de v\xE1lvulas), permite
+    a entrada de ar e combustivel no motor, assim como a saida dos gases gerados
+    pela combust\xE3o."
+--- !u!1 &8607614200084371076 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -3458215795418917176, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+  m_PrefabInstance: {fileID: 2843337674797482060}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &2796167079444552559
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8607614200084371076}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -4230547551703853178, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+--- !u!114 &7297777628677589947
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8607614200084371076}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f1368a79f22920439d3ad7d34168bfc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  titleText: Tampa do motor
+  descriptionText: "Fecha o cabe\xE7ote, impede a entrada de detritos e sugeria no
+    motor, evita acidentes com as altas velocidades de movimento dos componentes."
+--- !u!1 &8692726283405467478 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6906081957841444634, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+  m_PrefabInstance: {fileID: 2843337674797482060}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &5338554874297618829
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8692726283405467478}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -4135076277466754435, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+--- !u!114 &5900782776817752189
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8692726283405467478}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f1368a79f22920439d3ad7d34168bfc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  titleText: 
+  descriptionText: 
+--- !u!1 &8784661827263197169 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -2405779891099340867, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+  m_PrefabInstance: {fileID: 2843337674797482060}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &1185099629745362790
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8784661827263197169}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 1897068678878184118, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+--- !u!114 &3559854368132431493
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8784661827263197169}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f1368a79f22920439d3ad7d34168bfc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  titleText: "Polia de tens\xE3o"
+  descriptionText: "Respon\xE1vel por tensionar a correia externa"
+--- !u!1 &8931134893100398824 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -2556827079831029596, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+  m_PrefabInstance: {fileID: 2843337674797482060}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &8004787257959098651
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8931134893100398824}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 8731104609546531448, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+--- !u!114 &5289455821913215467
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8931134893100398824}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f1368a79f22920439d3ad7d34168bfc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  titleText: Arvore de cames
+  descriptionText: "O comando de v\xE1lvulas \xE9 acionado pela correia dentada ou
+    corrente, \xE9 fundamental para o funcinamento correto de acordo com o ciclo
+    do motor."
+--- !u!1 &9040848952582769727 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6485777973799718003, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+  m_PrefabInstance: {fileID: 2843337674797482060}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &2635700681348798692
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9040848952582769727}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 2768561177040705158, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+--- !u!114 &2899428864262310965
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9040848952582769727}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f1368a79f22920439d3ad7d34168bfc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  titleText: "M\xF3dulo Eletr\xF4nico"
+  descriptionText: "Gerencia e manda os comandos necess\xE1rios para todos os sistemas
+    eletr\xF4nicos, como a igni\xE7\xE3o (velas), inje\xE7\xE3o e motor de arranque."
+--- !u!1 &9054515124173474067 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6547540086341831007, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+  m_PrefabInstance: {fileID: 2843337674797482060}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &2165351809948506042
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9054515124173474067}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 7594678305677554149, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+--- !u!114 &7773425785786195854
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9054515124173474067}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f1368a79f22920439d3ad7d34168bfc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  titleText: "Biela do Pist\xE3o"
+  descriptionText: "Haste resistente, presa ao virabrequim, que impulsiona e sustenta
+    a cabe\xE7a do pist\xE3o durante a combust\xE3o."
+--- !u!1 &9082842918758286081 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -2776138156984466611, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+  m_PrefabInstance: {fileID: 2843337674797482060}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &7967302107014189221
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9082842918758286081}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -2499989996777085864, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+--- !u!114 &1424362056574898617
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9082842918758286081}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f1368a79f22920439d3ad7d34168bfc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  titleText: "V\xE1lvula"
+  descriptionText: "Acionado pela \xE1rvora de cames (comando de v\xE1lvulas), permite
+    a entrada de ar e combustivel no motor, assim como a saida dos gases gerados
+    pela combust\xE3o."
+--- !u!1 &9108540297812369508 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -2801914443172814808, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+  m_PrefabInstance: {fileID: 2843337674797482060}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &5041081659757772763
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9108540297812369508}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -8674894761121728728, guid: edcf8a7bdd9629446995396dfb22c548, type: 3}
+--- !u!114 &6084152654309831437
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9108540297812369508}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f1368a79f22920439d3ad7d34168bfc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  titleText: "Vela de Igni\xE7\xE3o"
+  descriptionText: "Acionada eletronicamente, dispara uma fa\xEDsca na c\xE2mara
+    de combust\xE3o de acordo com o ciclo do motor."
