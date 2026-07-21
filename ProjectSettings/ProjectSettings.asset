@@ -140,8 +140,7 @@ PlayerSettings:
   visionOSBundleVersion: 1.0
   tvOSBundleVersion: 1.0
   bundleVersion: 0.1
-  preloadedAssets:
-  - {fileID: 11400000, guid: 5535fee7fed68e742a8a4a754b7b6911, type: 2}
+  preloadedAssets: []
   metroInputSource: 0
   wsaTransparentSwapchain: 0
   m_HolographicPauseOnTrackingLoss: 1
@@ -163,7 +162,7 @@ PlayerSettings:
   androidMaxAspectRatio: 2.1
   applicationIdentifier:
     Android: com.LuizHenriqueFreitas.IC_2026_MotorAR
-    Standalone: com.DefaultCompany.IC-2026
+    Standalone: com.LuizHenriqueFreitas.IC-2026-MotorAR
   buildNumber:
     Standalone: 0
     VisionOS: 0
