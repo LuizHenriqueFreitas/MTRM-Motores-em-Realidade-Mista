@@ -1,0 +1,20 @@
+{
+    "name": "MTRM.Runtime",
+    "rootNamespace": "",
+    "references": [
+        "MTRM.Telemetry",
+        "Cinemachine",
+        "Unity.TextMeshPro",
+        "Unity.XR.ARFoundation",
+        "Unity.XR.ARSubsystems"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

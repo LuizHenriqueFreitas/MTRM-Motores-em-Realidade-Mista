@@ -1,0 +1,26 @@
+{
+    "name": "MTRM.Tests.EditMode",
+    "rootNamespace": "",
+    "references": [
+        "MTRM.Telemetry",
+        "MTRM.Runtime",
+        "MTRM.Experiment",
+        "MTRM.Editor"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [
+        "UNITY_INCLUDE_TESTS"
+    ],
+    "versionDefines": [],
+    "noEngineReferences": false,
+    "optionalUnityReferences": [
+        "TestAssemblies"
+    ]
+}

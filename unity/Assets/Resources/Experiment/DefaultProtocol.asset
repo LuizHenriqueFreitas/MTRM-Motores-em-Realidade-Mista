@@ -1,0 +1,128 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56a982297b62444d9384fbf9f07340b2, type: 3}
+  m_Name: DefaultProtocol
+  m_EditorClassIdentifier: Assembly-CSharp::ExperimentProtocol
+  protocolId: mtrm_desktop
+  version: 4.0.0
+  condition: desktop_3d
+  participantInstructions: "Responda primeiro ao pr\xE9-teste, explore o motor e
+    conclua o p\xF3s-teste. Clique com o bot\xE3o direito para consultar o nome de
+    uma pe\xE7a; arraste esse bot\xE3o para girar a c\xE2mera. Use a roda do mouse
+    para aplicar zoom."
+  randomizeMainTasks: 0
+  knowledgeItemBank: {fileID: 11400000, guid: ddd589dbab1a6a24ba0096e99308d678, type: 2}
+  tasks:
+  - id: ALPHA-T01
+    type: 0
+    phase: 1
+    contentBlock: 0
+    prompt: "Selecione uma V\xC1LVULA de admiss\xE3o ou de escape."
+    acceptedComponents: 2f01000030010000
+    rejectedComponents: 3101000033010000
+    allowRetry: 1
+    maximumAttempts: 0
+    maximumDurationSeconds: 120
+    options: []
+    correctOptionIndex: 0
+    explanation: 
+  - id: ALPHA-T02
+    type: 0
+    phase: 1
+    contentBlock: 0
+    prompt: "Selecione uma MOLA DE V\xC1LVULA."
+    acceptedComponents: 31010000
+    rejectedComponents: 2f0100003001000033010000
+    allowRetry: 1
+    maximumAttempts: 0
+    maximumDurationSeconds: 120
+    options: []
+    correctOptionIndex: 0
+    explanation: 
+  - id: ALPHA-T03
+    type: 0
+    phase: 1
+    contentBlock: 0
+    prompt: "Selecione a CORREIA DENTADA."
+    acceptedComponents: 36010000
+    rejectedComponents: 
+    allowRetry: 1
+    maximumAttempts: 0
+    maximumDurationSeconds: 120
+    options: []
+    correctOptionIndex: 0
+    explanation: 
+  - id: ALPHA-T04
+    type: 0
+    phase: 1
+    contentBlock: 0
+    prompt: "Selecione uma \xC1RVORE DE CAMES."
+    acceptedComponents: 2c010000
+    rejectedComponents: 
+    allowRetry: 1
+    maximumAttempts: 0
+    maximumDurationSeconds: 120
+    options: []
+    correctOptionIndex: 0
+    explanation: 
+  - id: BETA-T01
+    type: 0
+    phase: 1
+    contentBlock: 1
+    prompt: "Selecione o PIST\xC3O no modelo do motor."
+    acceptedComponents: c8000000
+    rejectedComponents: 
+    allowRetry: 1
+    maximumAttempts: 0
+    maximumDurationSeconds: 120
+    options: []
+    correctOptionIndex: 0
+    explanation: 
+  - id: BETA-T02
+    type: 0
+    phase: 1
+    contentBlock: 1
+    prompt: "Selecione a BIELA. Se necess\xE1rio, use Expandir para acessar as pe\xE7as internas."
+    acceptedComponents: c9000000
+    rejectedComponents: 
+    allowRetry: 1
+    maximumAttempts: 0
+    maximumDurationSeconds: 120
+    options: []
+    correctOptionIndex: 0
+    explanation: 
+  - id: BETA-T03
+    type: 0
+    phase: 1
+    contentBlock: 1
+    prompt: "Selecione o VIRABREQUIM."
+    acceptedComponents: ca000000
+    rejectedComponents: 
+    allowRetry: 1
+    maximumAttempts: 0
+    maximumDurationSeconds: 120
+    options: []
+    correctOptionIndex: 0
+    explanation: 
+  - id: BETA-T04
+    type: 0
+    phase: 1
+    contentBlock: 1
+    prompt: "Selecione o VOLANTE DO MOTOR."
+    acceptedComponents: cd000000
+    rejectedComponents: 
+    allowRetry: 1
+    maximumAttempts: 0
+    maximumDurationSeconds: 120
+    options: []
+    correctOptionIndex: 0
+    explanation: 

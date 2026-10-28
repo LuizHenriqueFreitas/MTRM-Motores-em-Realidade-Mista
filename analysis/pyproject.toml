@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mtrm-analysis"
+version = "0.1.0"
+description = "Pipeline reprodutível de análise dos estudos MTRM."
+requires-python = ">=3.11"
+dependencies = [
+  "pandas",
+  "numpy",
+  "neurokit2",
+  "pyarrow",
+  "statsmodels",
+  "pytest",
+  "pyyaml",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

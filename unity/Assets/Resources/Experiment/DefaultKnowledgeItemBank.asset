@@ -1,0 +1,524 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eaa3d39c5c3644b78552fa80bc0a1c66, type: 3}
+  m_Name: DefaultKnowledgeItemBank
+  m_EditorClassIdentifier: 
+  bankVersion: 1.0.0
+  items:
+  - id: ALFA-A-01
+    contentBlock: 0
+    form: 0
+    conceptKey: funcao_valvula_admissao
+    stem: "Durante o tempo de admiss\xE3o, o que entra no cilindro pela v\xE1lvula
+      de admiss\xE3o?"
+    options:
+    - "A mistura de ar e combust\xEDvel"
+    - "\xD3leo lubrificante vindo do c\xE1rter"
+    - "L\xEDquido de arrefecimento"
+    - "Apenas os gases j\xE1 queimados"
+    correctOptionIndex: 0
+    explanation: "A v\xE1lvula de admiss\xE3o abre enquanto o pist\xE3o desce, permitindo
+      a entrada da mistura de ar com o combust\xEDvel pulverizado pelos injetores.
+      Os gases queimados saem pela v\xE1lvula de escape. \xD3leo e l\xEDquido de
+      arrefecimento circulam em galerias separadas e n\xE3o entram na c\xE2mara de
+      combust\xE3o."
+    difficultyEstimate: 0
+  - id: ALFA-B-01
+    contentBlock: 0
+    form: 1
+    conceptKey: funcao_valvula_admissao
+    stem: "Em qual momento do ciclo a v\xE1lvula de admiss\xE3o permanece aberta?"
+    options:
+    - "Enquanto o pist\xE3o sobe comprimindo a mistura"
+    - "Enquanto o pist\xE3o sobe expulsando os gases"
+    - "No instante em que a vela produz a fa\xEDsca"
+    - "Enquanto o pist\xE3o desce, logo ap\xF3s o tempo de escape"
+    correctOptionIndex: 3
+    explanation: "A sequ\xEAncia dos quatro tempos \xE9 admiss\xE3o, compress\xE3o,
+      combust\xE3o e escape. A admiss\xE3o vem logo depois do escape, e \xE9 o \xFAnico
+      tempo em que a v\xE1lvula de admiss\xE3o est\xE1 aberta: o pist\xE3o desce
+      e a queda de press\xE3o puxa a mistura para dentro do cilindro."
+    difficultyEstimate: 0
+  - id: ALFA-A-02
+    contentBlock: 0
+    form: 0
+    conceptKey: funcao_valvula_escape
+    stem: "O que sai do cilindro quando a v\xE1lvula de escape abre?"
+    options:
+    - "Os gases resultantes da combust\xE3o"
+    - "A mistura de ar e combust\xEDvel ainda n\xE3o queimada"
+    - "O \xF3leo que lubrificou as paredes do cilindro"
+    - O ar que passou pelo filtro de ar
+    correctOptionIndex: 0
+    explanation: "A v\xE1lvula de escape libera os gases j\xE1 queimados para o coletor
+      de escape. A mistura fresca entra pela v\xE1lvula de admiss\xE3o; o \xF3leo
+      permanece nas galerias de lubrifica\xE7\xE3o e n\xE3o deve alcan\xE7ar a c\xE2mara
+      de combust\xE3o."
+    difficultyEstimate: 0
+  - id: ALFA-B-02
+    contentBlock: 0
+    form: 1
+    conceptKey: funcao_valvula_escape
+    stem: "Em qual momento a v\xE1lvula de escape abre?"
+    options:
+    - "No mesmo instante em que a vela produz a fa\xEDsca"
+    - "Quando o pist\xE3o desce, admitindo a mistura"
+    - "Quando o pist\xE3o sobe, ap\xF3s a combust\xE3o"
+    - "Quando o pist\xE3o sobe comprimindo a mistura"
+    correctOptionIndex: 2
+    explanation: "A v\xE1lvula de escape abre no quarto tempo: depois da combust\xE3o,
+      o pist\xE3o sobe e empurra os gases queimados para fora. Se abrisse durante
+      a compress\xE3o ou a combust\xE3o, a press\xE3o escaparia e o motor n\xE3o
+      produziria trabalho."
+    difficultyEstimate: 0
+  - id: ALFA-A-03
+    contentBlock: 0
+    form: 0
+    conceptKey: funcao_mola_valvula
+    stem: "Qual pe\xE7a devolve a v\xE1lvula \xE0 posi\xE7\xE3o fechada?"
+    options:
+    - O prato de mola
+    - "O ressalto da \xE1rvore de cames"
+    - "A press\xE3o dos gases no coletor"
+    - "A mola da v\xE1lvula"
+    correctOptionIndex: 3
+    explanation: "O ressalto da \xE1rvore de cames s\xF3 empurra a v\xE1lvula para
+      abrir; nada a puxa de volta. Quem a fecha \xE9 a mola. O prato de mola \xE9
+      a pe\xE7a que apoia a mola contra a v\xE1lvula, mas n\xE3o gera for\xE7a por
+      si s\xF3."
+    difficultyEstimate: 0
+  - id: ALFA-B-03
+    contentBlock: 0
+    form: 1
+    conceptKey: funcao_mola_valvula
+    stem: "O que aconteceria se a mola de uma v\xE1lvula se rompesse?"
+    options:
+    - "A \xE1rvore de cames pararia de girar"
+    - "A v\xE1lvula deixaria de fechar corretamente"
+    - "A vela deixaria de produzir fa\xEDsca"
+    - "A v\xE1lvula deixaria de abrir"
+    correctOptionIndex: 1
+    explanation: "A abertura \xE9 feita pelo ressalto da \xE1rvore de cames e continuaria
+      acontecendo. O fechamento depende exclusivamente da mola: sem ela, a v\xE1lvula
+      permaneceria aberta, o cilindro perderia compress\xE3o e a v\xE1lvula poderia
+      ser atingida pelo pist\xE3o."
+    difficultyEstimate: 0
+  - id: ALFA-A-04
+    contentBlock: 0
+    form: 0
+    conceptKey: funcao_comando
+    stem: "Qual pe\xE7a empurra a v\xE1lvula para que ela abra?"
+    options:
+    - A engrenagem do virabrequim
+    - "O pist\xE3o, ao subir"
+    - "O ressalto da \xE1rvore de cames"
+    - "A mola da v\xE1lvula"
+    correctOptionIndex: 2
+    explanation: "A \xE1rvore de cames \xE9 um eixo com ressaltos. A cada volta,
+      o ressalto pressiona a extremidade da haste da v\xE1lvula e a desloca para
+      baixo, abrindo a passagem. A mola faz o movimento contr\xE1rio, de fechamento."
+    difficultyEstimate: 0
+  - id: ALFA-B-04
+    contentBlock: 0
+    form: 1
+    conceptKey: funcao_comando
+    stem: "O que o formato dos ressaltos da \xE1rvore de cames determina?"
+    options:
+    - "A tens\xE3o aplicada \xE0 correia dentada"
+    - "A rota\xE7\xE3o m\xE1xima que o motor alcan\xE7a"
+    - "A quantidade de combust\xEDvel injetada em cada ciclo"
+    - "O momento e a dura\xE7\xE3o da abertura de cada v\xE1lvula"
+    correctOptionIndex: 3
+    explanation: "O perfil do ressalto define quando a v\xE1lvula come\xE7a a abrir,
+      quanto ela abre e por quanto tempo permanece aberta. A quantidade de combust\xEDvel
+      \xE9 comandada pelos injetores, e a tens\xE3o da correia \xE9 fun\xE7\xE3o
+      do tensionador."
+    difficultyEstimate: 0
+  - id: ALFA-A-05
+    contentBlock: 0
+    form: 0
+    conceptKey: arquitetura_dohc
+    stem: "Este motor possui duas \xE1rvores de cames. Qual \xE9 a fun\xE7\xE3o de
+      cada uma?"
+    options:
+    - Uma aciona os cilindros 1 e 2 e a outra os cilindros 3 e 4
+    - "Uma trabalha em baixa rota\xE7\xE3o e a outra em alta rota\xE7\xE3o"
+    - "Uma aciona as v\xE1lvulas de admiss\xE3o e a outra as de escape"
+    - "Uma abre as v\xE1lvulas e a outra as fecha"
+    correctOptionIndex: 2
+    explanation: "\xC9 a configura\xE7\xE3o conhecida como duplo comando no cabe\xE7ote:
+      uma \xE1rvore dedicada \xE0s v\xE1lvulas de admiss\xE3o e outra \xE0s de escape,
+      cada uma com sua pr\xF3pria engrenagem. O fechamento \xE9 sempre feito pelas
+      molas, nunca por um segundo comando."
+    difficultyEstimate: 0
+  - id: ALFA-B-05
+    contentBlock: 0
+    form: 1
+    conceptKey: arquitetura_dohc
+    stem: "Este motor tem quatro cilindros e dezesseis v\xE1lvulas. Quantas v\xE1lvulas
+      h\xE1 em cada cilindro?"
+    options:
+    - "Oito: quatro de admiss\xE3o e quatro de escape"
+    - "Duas: uma de admiss\xE3o e uma de escape"
+    - "Tr\xEAs: uma de admiss\xE3o e duas de escape"
+    - "Quatro: duas de admiss\xE3o e duas de escape"
+    correctOptionIndex: 3
+    explanation: "Dividindo dezesseis v\xE1lvulas por quatro cilindros, chega-se
+      a quatro v\xE1lvulas por cilindro, distribu\xEDdas em dois pares: duas de admiss\xE3o,
+      acionadas por uma \xE1rvore de cames, e duas de escape, acionadas pela outra."
+    difficultyEstimate: 0
+  - id: ALFA-A-06
+    contentBlock: 0
+    form: 0
+    conceptKey: cadeia_sincronismo
+    stem: "Qual elemento transmite o movimento do virabrequim para as \xE1rvores
+      de cames?"
+    options:
+    - A correia dentada
+    - Os cabos de vela
+    - A biela
+    - O volante do motor
+    correctOptionIndex: 0
+    explanation: "A correia dentada liga a engrenagem do virabrequim \xE0s engrenagens
+      das duas \xE1rvores de cames. \xC9 essa liga\xE7\xE3o que mant\xE9m a abertura
+      das v\xE1lvulas sincronizada com a posi\xE7\xE3o dos pist\xF5es. O volante
+      e a biela pertencem ao conjunto que produz e transmite pot\xEAncia, n\xE3o
+      ao sincronismo."
+    difficultyEstimate: 0
+  - id: ALFA-B-06
+    contentBlock: 0
+    form: 1
+    conceptKey: cadeia_sincronismo
+    stem: "A \xE1rvore de cames gira \xE0 metade da rota\xE7\xE3o do virabrequim.
+      Por qu\xEA?"
+    options:
+    - "Porque cada v\xE1lvula abre duas vezes por volta do virabrequim"
+    - Porque a correia dentada perde velocidade por atrito
+    - "Porque cada v\xE1lvula abre uma vez a cada duas voltas do virabrequim"
+    - "Porque a \xE1rvore de cames \xE9 mais pesada que o virabrequim"
+    correctOptionIndex: 2
+    explanation: "O ciclo completo de quatro tempos consome duas voltas do virabrequim,
+      ou 720 graus. Nesse intervalo, cada v\xE1lvula abre uma \xFAnica vez. Para
+      que isso ocorra, a \xE1rvore de cames precisa completar apenas uma volta, ou
+      seja, girar na metade da rota\xE7\xE3o."
+    difficultyEstimate: 0
+  - id: ALFA-A-07
+    contentBlock: 0
+    form: 0
+    conceptKey: relacao_pistao_valvula
+    stem: "Por que as v\xE1lvulas n\xE3o podem abrir em qualquer momento do ciclo?"
+    options:
+    - "Porque a abertura precisa acompanhar a posi\xE7\xE3o do pist\xE3o em cada
+      tempo"
+    - "Porque a mola s\xF3 permite abertura acima de certa rota\xE7\xE3o"
+    - "Porque o \xF3leo do c\xE1rter s\xF3 alcan\xE7a as v\xE1lvulas em certos momentos"
+    - "Porque a vela de igni\xE7\xE3o impede a abertura durante a combust\xE3o"
+    correctOptionIndex: 0
+    explanation: "Cada tempo do ciclo exige um estado espec\xEDfico das v\xE1lvulas:
+      abertas na admiss\xE3o e no escape, fechadas na compress\xE3o e na combust\xE3o.
+      Abrir fora de hora faz o cilindro perder press\xE3o e pode colocar a v\xE1lvula
+      no caminho do pist\xE3o."
+    difficultyEstimate: 0
+  - id: ALFA-B-07
+    contentBlock: 0
+    form: 1
+    conceptKey: relacao_pistao_valvula
+    stem: O que pode ocorrer se a correia dentada se romper e o sincronismo se perder?
+    options:
+    - "V\xE1lvulas abertas podem ser atingidas pelo pist\xE3o"
+    - "O alternador deixa de gerar energia el\xE9trica"
+    - "O motor passa a funcionar apenas em baixa rota\xE7\xE3o"
+    - O virabrequim para imediatamente de girar
+    correctOptionIndex: 0
+    explanation: "Sem a correia, as \xE1rvores de cames param, mas o virabrequim
+      continua girando por in\xE9rcia. V\xE1lvulas que ficaram abertas permanecem
+      no curso do pist\xE3o, e o choque entre eles \xE9 a avaria t\xEDpica dessa
+      falha."
+    difficultyEstimate: 0
+  - id: ALFA-A-08
+    contentBlock: 0
+    form: 0
+    conceptKey: componentes_conjunto_valvula
+    stem: "Qual pe\xE7a se apoia na extremidade da mola e a mant\xE9m presa \xE0
+      v\xE1lvula?"
+    options:
+    - "A junta do cabe\xE7ote"
+    - A bronzina
+    - O mancal
+    - O prato de mola
+    correctOptionIndex: 3
+    explanation: "O prato de mola \xE9 o disco que prende a mola \xE0 haste da v\xE1lvula
+      e transmite a for\xE7a de fechamento. Bronzinas e mancais pertencem aos apoios
+      dos eixos rotativos; a junta do cabe\xE7ote veda a uni\xE3o entre bloco e cabe\xE7ote."
+    difficultyEstimate: 0
+  - id: ALFA-B-08
+    contentBlock: 0
+    form: 1
+    conceptKey: componentes_conjunto_valvula
+    stem: "Qual destas pe\xE7as N\xC3O faz parte do conjunto de uma v\xE1lvula?"
+    options:
+    - O prato de mola
+    - A bronzina
+    - "A haste da v\xE1lvula"
+    - "A mola de v\xE1lvula"
+    correctOptionIndex: 1
+    explanation: "O conjunto da v\xE1lvula re\xFAne a v\xE1lvula propriamente dita,
+      com haste e tampo, a mola e o prato de mola. A bronzina \xE9 uma casca antifric\xE7\xE3o
+      usada nos apoios de eixos rotativos, como o virabrequim, e n\xE3o integra o
+      conjunto da v\xE1lvula."
+    difficultyEstimate: 0
+  - id: BETA-A-09
+    contentBlock: 1
+    form: 0
+    conceptKey: funcao_pistao
+    stem: "O que empurra o pist\xE3o para baixo no tempo de combust\xE3o?"
+    options:
+    - "A expans\xE3o dos gases queimados"
+    - "A mola da v\xE1lvula"
+    - "A press\xE3o do \xF3leo vindo do c\xE1rter"
+    - "O virabrequim, atrav\xE9s da biela"
+    correctOptionIndex: 0
+    explanation: "A queima da mistura eleva bruscamente a press\xE3o dentro da c\xE2mara,
+      e essa press\xE3o empurra o pist\xE3o. \xC9 o \xFAnico tempo em que o motor
+      produz trabalho; nos demais, \xE9 o virabrequim que move o pist\xE3o."
+    difficultyEstimate: 0
+  - id: BETA-B-09
+    contentBlock: 1
+    form: 1
+    conceptKey: funcao_pistao
+    stem: "O que o pist\xE3o faz durante o tempo de escape?"
+    options:
+    - Permanece parado no ponto morto superior
+    - "Desce, admitindo a mistura de ar e combust\xEDvel"
+    - "Sobe, comprimindo a mistura antes da fa\xEDsca"
+    - Sobe, empurrando os gases queimados para fora
+    correctOptionIndex: 3
+    explanation: "No quarto tempo o pist\xE3o sobe com a v\xE1lvula de escape aberta
+      e expulsa os gases da combust\xE3o. Subir comprimindo descreve o segundo tempo;
+      descer admitindo descreve o primeiro."
+    difficultyEstimate: 0
+  - id: BETA-A-10
+    contentBlock: 1
+    form: 0
+    conceptKey: funcao_biela
+    stem: "Qual pe\xE7a liga o pist\xE3o ao virabrequim?"
+    options:
+    - A biela
+    - A bronzina
+    - "O pino do pist\xE3o"
+    - O volante do motor
+    correctOptionIndex: 0
+    explanation: "A biela \xE9 a haste que une o pist\xE3o ao virabrequim. O pino
+      do pist\xE3o faz apenas a articula\xE7\xE3o entre a biela e o pist\xE3o, e
+      a bronzina \xE9 a casca antifric\xE7\xE3o no apoio da biela sobre o virabrequim."
+    difficultyEstimate: 0
+  - id: BETA-B-10
+    contentBlock: 1
+    form: 1
+    conceptKey: funcao_biela
+    stem: "De que transforma\xE7\xE3o de movimento a biela participa?"
+    options:
+    - "Converte a rota\xE7\xE3o do virabrequim em rota\xE7\xE3o da \xE1rvore de cames"
+    - "Converte o vaiv\xE9m do pist\xE3o em rota\xE7\xE3o do virabrequim"
+    - "Converte a rota\xE7\xE3o do virabrequim em abertura das v\xE1lvulas"
+    - "Converte calor em press\xE3o dentro da c\xE2mara de combust\xE3o"
+    correctOptionIndex: 1
+    explanation: "O pist\xE3o descreve movimento alternativo, de sobe e desce. Ligado
+      a ele, o munh\xE3o do virabrequim descreve movimento circular. A biela \xE9
+      o elemento que acopla os dois movimentos, convertendo um no outro."
+    difficultyEstimate: 0
+  - id: BETA-A-11
+    contentBlock: 1
+    form: 0
+    conceptKey: funcao_virabrequim
+    stem: "Qual pe\xE7a transforma o movimento de vaiv\xE9m dos pist\xF5es em movimento
+      de rota\xE7\xE3o?"
+    options:
+    - O volante do motor
+    - "A \xE1rvore de cames"
+    - A polia principal
+    - O virabrequim
+    correctOptionIndex: 3
+    explanation: "O virabrequim \xE9 o eixo central do motor. Seus munh\xF5es, deslocados
+      em rela\xE7\xE3o ao eixo de rota\xE7\xE3o, recebem as bielas e convertem o
+      movimento alternativo dos pist\xF5es em rota\xE7\xE3o cont\xEDnua."
+    difficultyEstimate: 0
+  - id: BETA-B-11
+    contentBlock: 1
+    form: 1
+    conceptKey: funcao_virabrequim
+    stem: "Para onde segue o movimento de rota\xE7\xE3o produzido pelo virabrequim?"
+    options:
+    - "Para o volante e, deste, para a transmiss\xE3o"
+    - Para o coletor de escape
+    - "Para o filtro de \xF3leo"
+    - Para o trilho de injetores
+    correctOptionIndex: 0
+    explanation: "O virabrequim entrega rota\xE7\xE3o ao volante, que a estabiliza
+      e a transmite \xE0 embreagem e \xE0 caixa de marchas. Parte do movimento tamb\xE9m
+      aciona sistemas auxiliares pela polia principal."
+    difficultyEstimate: 0
+  - id: BETA-A-12
+    contentBlock: 1
+    form: 0
+    conceptKey: quatro_tempos
+    stem: "Qual \xE9 a ordem correta dos quatro tempos do motor?"
+    options:
+    - "Escape, compress\xE3o, admiss\xE3o e combust\xE3o"
+    - "Compress\xE3o, admiss\xE3o, combust\xE3o e escape"
+    - "Admiss\xE3o, compress\xE3o, combust\xE3o e escape"
+    - "Admiss\xE3o, combust\xE3o, compress\xE3o e escape"
+    correctOptionIndex: 2
+    explanation: "O ciclo come\xE7a pela admiss\xE3o da mistura, segue com a compress\xE3o,
+      prossegue com a combust\xE3o que produz trabalho e termina com o escape dos
+      gases queimados. O conjunto consome duas voltas completas do virabrequim."
+    difficultyEstimate: 0
+  - id: BETA-B-12
+    contentBlock: 1
+    form: 1
+    conceptKey: quatro_tempos
+    stem: Em qual dos quatro tempos o motor efetivamente produz trabalho?
+    options:
+    - "Na admiss\xE3o"
+    - "Na compress\xE3o"
+    - "Na combust\xE3o"
+    - No escape
+    correctOptionIndex: 2
+    explanation: "Apenas na combust\xE3o a press\xE3o dos gases empurra o pist\xE3o
+      e gera trabalho. Admiss\xE3o, compress\xE3o e escape consomem energia, fornecida
+      pela in\xE9rcia do volante e pela combust\xE3o dos outros cilindros."
+    difficultyEstimate: 0
+  - id: BETA-A-13
+    contentBlock: 1
+    form: 0
+    conceptKey: ordem_ignicao
+    stem: "Por que os quatro cilindros n\xE3o realizam a combust\xE3o ao mesmo tempo?"
+    options:
+    - "Porque o motor possui uma \xFAnica vela de igni\xE7\xE3o"
+    - "Para distribuir os impulsos ao longo do ciclo e manter a rota\xE7\xE3o uniforme"
+    - Porque o filtro de ar limita a entrada de mistura
+    - "Porque a correia dentada impede a combust\xE3o simult\xE2nea"
+    correctOptionIndex: 1
+    explanation: "As combust\xF5es s\xE3o espa\xE7adas ao longo das duas voltas do
+      ciclo, de modo que sempre haja um cilindro produzindo trabalho. Se todas ocorressem
+      juntas, a rota\xE7\xE3o seria irregular e os esfor\xE7os sobre o virabrequim,
+      muito maiores."
+    difficultyEstimate: 0
+  - id: BETA-B-13
+    contentBlock: 1
+    form: 1
+    conceptKey: ordem_ignicao
+    stem: "Neste motor de quatro cilindros em linha, quais pist\xF5es sobem e descem
+      juntos?"
+    options:
+    - "Os pist\xF5es 1 e 2 juntos, e os pist\xF5es 3 e 4 juntos"
+    - "Os quatro pist\xF5es se movem sempre juntos"
+    - "Os pist\xF5es 1 e 4 juntos, e os pist\xF5es 2 e 3 juntos"
+    - "Os pist\xF5es 1 e 3 juntos, e os pist\xF5es 2 e 4 juntos"
+    correctOptionIndex: 2
+    explanation: "O virabrequim \xE9 constru\xEDdo com os munh\xF5es dos cilindros
+      1 e 4 de um lado e os dos cilindros 2 e 3 do lado oposto. Por isso os dois
+      pares se movem em oposi\xE7\xE3o: quando 1 e 4 est\xE3o em cima, 2 e 3 est\xE3o
+      embaixo."
+    difficultyEstimate: 0
+  - id: BETA-A-14
+    contentBlock: 1
+    form: 0
+    conceptKey: funcao_volante
+    stem: "Qual \xE9 a principal fun\xE7\xE3o do volante do motor?"
+    options:
+    - "Acionar as v\xE1lvulas de admiss\xE3o"
+    - "Armazenar energia e suavizar a rota\xE7\xE3o entre as combust\xF5es"
+    - "Gerar energia el\xE9trica para a bateria"
+    - "Filtrar as impurezas do \xF3leo lubrificante"
+    correctOptionIndex: 1
+    explanation: "Como s\xF3 um cilindro produz trabalho por vez, a rota\xE7\xE3o
+      tenderia a oscilar. O volante, por sua massa e in\xE9rcia, armazena energia
+      durante a combust\xE3o e a devolve nos demais tempos, mantendo o giro regular."
+    difficultyEstimate: 0
+  - id: BETA-B-14
+    contentBlock: 1
+    form: 1
+    conceptKey: funcao_volante
+    stem: "Com qual pe\xE7a o motor de arranque engata para dar a partida?"
+    options:
+    - Com a polia principal
+    - "Com a engrenagem da \xE1rvore de cames"
+    - Com o volante do motor
+    - "Com o c\xE1rter"
+    correctOptionIndex: 2
+    explanation: "O volante possui uma cremalheira em sua borda. O motor de arranque
+      engata nela e for\xE7a as primeiras rota\xE7\xF5es do virabrequim, at\xE9 que
+      as combust\xF5es passem a sustentar o funcionamento."
+    difficultyEstimate: 0
+  - id: BETA-A-15
+    contentBlock: 1
+    form: 0
+    conceptKey: funcao_bronzina_mancal
+    stem: "Qual \xE9 a fun\xE7\xE3o da bronzina?"
+    options:
+    - "Conduzir a corrente el\xE9trica at\xE9 a vela"
+    - "Vedar a c\xE2mara de combust\xE3o"
+    - "Reduzir o atrito entre o eixo e seu apoio, com uma pel\xEDcula de \xF3leo"
+    - Tensionar a correia dentada
+    correctOptionIndex: 2
+    explanation: "A bronzina \xE9 uma casca de liga antifric\xE7\xE3o instalada entre
+      o eixo e o apoio. Ela n\xE3o toca o eixo diretamente: entre os dois h\xE1 uma
+      fina pel\xEDcula de \xF3leo sob press\xE3o, que \xE9 o que de fato sustenta
+      a carga."
+    difficultyEstimate: 0
+  - id: BETA-B-15
+    contentBlock: 1
+    form: 1
+    conceptKey: funcao_bronzina_mancal
+    stem: O que os mancais sustentam no motor?
+    options:
+    - Os cabos e os conectores das velas
+    - O coletor de ar e o filtro de ar
+    - "Os eixos que giram, como o virabrequim e as \xE1rvores de cames"
+    - "As v\xE1lvulas de admiss\xE3o e de escape"
+    correctOptionIndex: 2
+    explanation: "Mancal \xE9 o apoio onde um eixo rotativo se assenta. O virabrequim
+      e as duas \xE1rvores de cames giram apoiados em mancais, normalmente revestidos
+      por bronzinas e lubrificados sob press\xE3o."
+    difficultyEstimate: 0
+  - id: BETA-A-16
+    contentBlock: 1
+    form: 0
+    conceptKey: lubrificacao_basica
+    stem: "Onde o \xF3leo do motor se acumula antes de ser bombeado novamente?"
+    options:
+    - No trilho de injetores
+    - No coletor de escape
+    - "No cabe\xE7ote"
+    - "No c\xE1rter"
+    correctOptionIndex: 3
+    explanation: "O c\xE1rter \xE9 o reservat\xF3rio na parte inferior do motor.
+      O \xF3leo que percorreu as galerias escorre de volta para ele por gravidade
+      e \xE9 novamente aspirado pela bomba, reiniciando a circula\xE7\xE3o."
+    difficultyEstimate: 0
+  - id: BETA-B-16
+    contentBlock: 1
+    form: 1
+    conceptKey: lubrificacao_basica
+    stem: "Por que o motor precisa de lubrifica\xE7\xE3o constante?"
+    options:
+    - "Para resfriar a fa\xEDsca produzida pela vela"
+    - "Para reduzir o atrito e o desgaste entre as pe\xE7as em movimento"
+    - "Para aumentar a compress\xE3o dentro do cilindro"
+    - Para filtrar o ar admitido pelo coletor
+    correctOptionIndex: 1
+    explanation: "Pe\xE7as como virabrequim, bielas e \xE1rvores de cames giram em
+      alta velocidade e sob carga elevada. A pel\xEDcula de \xF3leo separa as superf\xEDcies
+      met\xE1licas, reduz o atrito, retira calor e arrasta part\xEDculas at\xE9 o
+      filtro."
+    difficultyEstimate: 0
